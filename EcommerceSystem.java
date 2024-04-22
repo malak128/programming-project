@@ -79,7 +79,7 @@ class ClothingProduct extends product {
         return fabric;
     }
 }
- class BookProduct extends product{
+class BookProduct extends product{
     String author;
     String publisher;
     public BookProduct(){
@@ -103,7 +103,7 @@ class ClothingProduct extends product {
         return publisher;
     }
 }
- class customer{
+class customer{
     int customerId;
     String Name;
     String address;
@@ -136,7 +136,7 @@ class ClothingProduct extends product {
     }
 
 }
- class cart {
+class cart {
     Scanner input = new Scanner(System.in);
     int costumerId;
     int nProducts;
@@ -229,7 +229,7 @@ class ClothingProduct extends product {
         }
     }
 }
- class order {
+class order {
     int customerId;
     int orderId;
     product[] products;
@@ -258,7 +258,7 @@ class ClothingProduct extends product {
     }
 }
 
- public class EcommerceSystem {
+public class EcommerceSystem {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         ElectronicProduct e1 = new ElectronicProduct(1, 599.99f, "smartphone", "samsung", 1);
@@ -299,5 +299,4 @@ class ClothingProduct extends product {
 
     }
 }
-    
-                    
+
