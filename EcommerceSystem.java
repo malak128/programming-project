@@ -294,7 +294,6 @@ class ClothingProduct extends product {
             }
 
         }
-        cart.deleteProduct();
 
         cart.placeOrder();
 
