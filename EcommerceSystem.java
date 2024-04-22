@@ -258,7 +258,7 @@ class ClothingProduct extends product {
     }
 }
 
- class EcommerceSystem {
+ public class EcommerceSystem {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         ElectronicProduct e1 = new ElectronicProduct(1, 599.99f, "smartphone", "samsung", 1);
